@@ -1,0 +1,889 @@
+/* Main background. */
+body {
+  background: #1E240C url('http://static.max99x.com/junk/darkbrown_bg.gif') center center !important;
+  font-family: Verdana, Arial, sans-serif !important;
+  font-size: 13px !important;
+  color: #D0C3A8 !important;
+}
+
+/* Recolor links. */
+a {
+  color: #D0C3A8 !important;
+}
+
+a:hover {
+  color: white !important;
+}
+
+/* Remove/recolor footers. */
+#footer-legal, #footer-logos, #footer_utilities {
+  display: none !important;
+}
+
+#board_footer {
+  border-color: #8E8E7E !important;
+}
+
+/* Replace top bar background and logo. */
+#branding {
+  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  color: #D0C3A8 !important;
+}
+#branding a {
+  background: url('http://static.zenimax.com/forums/public/style_images/bethsoftimg/logos/bethsoft-large.png') no-repeat no-repeat center left !important;
+  width: 180px !important;
+  height: 70px !important;
+  display: inline-block !important;
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+
+#branding img {
+  display: none !important;
+}
+
+/* Recolor user box. */
+#user_navigation {
+  background: #030 !important;
+  border-color: #143D1E !important;
+  border-radius: 6px 6px !important;
+  border-width: 2px !important;
+  color: #D0C3A8 !important;
+}
+
+#user_navigation>a>img {
+  border-color: #071805 !important;
+}
+
+#user_link, #user_notifications_link {
+  background: #0D2815 !important;
+  border-color: #071805 !important;
+}
+
+#user_link *, #user_notifications_link *, #user_other * {
+  color: #D0C3A8 !important;
+}
+
+#user_link *:hover, #user_notifications_link *:hover, #user_other *:hover {
+  color: #ffffff !important;
+}
+
+#user_navigation #user_notifications.no-new small:hover {
+  background: none !important;
+}
+
+#user_link_menucontent, #user_link_menucontent li {
+  background: #1E240C url('http://static.max99x.com/junk/darkgreen_bg.gif') center center !important;
+}
+
+/* Recolor navigation bar. */
+#primary_nav {
+  border: none !important;
+  border-bottom: 2px #143D1E solid !important;
+  background: #030 !important;
+}
+
+#primary_nav ul li {
+  margin: 0 !important;
+  margin-left: 6px !important;
+  padding: 8px !important;
+  font-size: 100% !important;
+}
+
+#primary_nav ul li a {
+  color: #D0C3A8 !important;
+  font-size: 100% !important;
+  font-weight: bold !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#primary_nav ul li a:hover, #primary_nav ul li a:active {
+  color: white !important;
+}
+
+#primary_nav ul li.active, #primary_nav ul li.active a {
+  background: none !important;
+  border: none !important;
+}
+
+/* Recolor search box and search buttons. */
+#search {
+  min-width: 0px !important;
+  padding-right: 3px !important;
+}
+
+#search .submit_input {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+#search .submit_input:hover {
+  background-color: #0D2815 !important;
+}
+
+#adv_search {
+  background-color: transparent !important;
+}
+
+#adv_search:hover {
+  background-color: #0D2815 !important;
+}
+
+/* Tweak search options drop-down (buggy in IP.Board). */
+#search_options {
+  min-width: 7px !important;
+  width: 7px !important;
+  height: 10px !important;
+  padding: 0px !important;
+  background: url('http://static.zenimax.com/forums/public/style_images/master/dropdown.png') center center no-repeat !important;
+  border: none !important;
+}
+
+/* Breadcrumbs navbar recolor. */
+#secondary_nav {
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border: none !important;
+  border-bottom: 2px #0D2815 solid !important;
+  border-top-width: 1px !important;
+  height: 17px !important;
+  padding: 8px !important;
+  padding-left: 25px !important;
+}
+
+#secondary_nav li {
+  color: white !important;
+}
+
+#secondary_nav li .nav_sep {
+  color: #D0C3A8 !important;
+}
+
+#secondary_nav a {
+  font-weight: bold !important;
+  color: #D0C3A8 !important;
+}
+
+#secondary_nav a:hover, #secondary_nav a:active {
+  color: white !important;
+}
+
+/* Recolor forum/topic header. */
+.maintitle {
+  background-color: #030 !important;
+  border-right: 1px #0D2815 solid !important;
+  border-left: 1px #0D2815 solid !important;
+}
+
+.main_topic_desc {
+  color: #D0C3A8 !important;
+  margin-left: 10px !important;
+}
+
+/* Recolor pagination bar. */
+.pagejump, .pagination li, .mini_pagination li {
+  color: #D0C3A8 !important;
+  background: #0D2815 !important;
+  border: 1px #071805 solid !important;
+  font-size: 100% !important;
+}
+
+.pagination li a, .mini_pagination li a {
+  background: none !important;
+  border: none !important;
+}
+
+.pagejump:hover, .pagination li:hover, .pagination li a:hover, .mini_pagination li:hover, .mini_pagination li a:hover {
+  background: #030 !important;
+  color: white !important;
+}
+
+.pagination li.active, .mini_pagination li.active {
+  background: #030 !important;
+  color: white !important;
+}
+
+/* Recolor page jump box. */
+.ipbmenu_content {
+  padding-top: 2px !important;
+}
+
+.ipbmenu_content, .ipbmenu_content h3  {
+  background: #0D2815 !important;
+  border-color: #071805 !important;
+  color: #D0C3A8 !important;
+}
+
+.ipbmenu_content .input_submit {
+  background: #030 !important;
+  border: 1px #071805 solid !important;
+}
+
+/* Recolor topic controls. */
+.topic_buttons li {
+  background: none !important;
+}
+
+.topic_buttons li a {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  color: #D0C3A8 !important;
+  padding-top: 3px !important;
+  padding-bottom: 2px !important;
+}
+
+.topic_buttons li a:hover {
+  background: #030 !important;
+  color: white !important;
+}
+
+/* Recolor topic stats box. */
+#topic_stats {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border: 1px #0D2815 solid !important;
+}
+
+#topic_stats a, #topic_stats .desc, #forum_active_users .desc {
+  color: #D0C3A8 !important;
+}
+
+#topic_stats a {
+  font-weight: bold !important;
+}
+
+#topic_stats a:hover {
+  color: white !important;
+}
+
+/* Recolor reply box. Might have side effects. */
+.general_box, .general_box fieldset, #postingform fieldset {
+  color: #D0C3A8 !important;
+  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  border: none !important;
+}
+
+.general_box {
+  position: relative !important;
+  top: -5px !important;
+  border: 1px #0D2815 solid !important;
+  border-top: none !important;
+}
+
+.general_box fieldset {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.input_rte, .rte_control, #post_comment .input_textarea, #ucp_notes {
+  color: #E7E2CF !important;
+  border-color: #0D2815 !important;
+}
+
+.input_rte, #post_comment .input_textarea, #ucp_notes {
+  background: #272614 !important;
+}
+
+.rte_control {
+  background: #030 !important;
+}
+
+.rte_control:hover {
+  color: white !important;
+}
+
+.ips_editor {
+  border: none !important;
+}
+
+.ips_editor .toolbar {
+  background: #0D2815 !important;
+  border-color: transparent !important;
+}
+
+.ips_editor .toolbar .sep {
+  border-color: #272614 !important;
+}
+
+.ipbmenu_content ul, .ipbmenu_content li {
+  background: #0D2815 !important;
+}
+
+.ips_editor .controls, .ips_editor .editor {
+  padding-right: 10px !important;
+}
+
+.general_box fieldset.submit input, #postingform fieldset.submit input {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  color: #D0C3A8 !important;
+}
+
+.general_box fieldset.submit input:hover, #postingform fieldset.submit input:hover {
+  background: #030 !important;
+  color: white !important;
+}
+
+.ips_editor fieldset {
+  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+#postingform h3.bar {
+  color: #D0C3A8 !important;
+  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+/* Recolor forum jump (and moderation?) bar. */
+.moderation_bar {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border: 1px #0D2815 solid !important;
+  border-radius: 0 !important;
+}
+
+.moderation_bar input {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  color: #D0C3A8 !important;
+  padding-bottom: 2px !important;
+}
+
+.moderation_bar input:hover {
+  background: #030 !important;
+  color: white !important;
+}
+
+.moderation_bar select {
+  background: #272614 !important;
+  color: #E7E2CF !important;
+  border-color: #0D2815 !important;
+}
+
+/* Recolor forum filter bar. */
+#forum_filter {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border: 1px #0D2815 solid !important;
+  border-radius: 0 !important;
+}
+
+#forum_filter * {
+  color: #D0C3A8 !important;
+}
+
+#forum_filter input[type=submit] {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  color: #D0C3A8 !important;
+  padding-bottom: 2px !important;
+}
+
+#forum_filter input[type=submit]:hover {
+  background: #030 !important;
+  color: white !important;
+}
+
+#forum_filter select {
+  background: #272614 !important;
+  color: #E7E2CF !important;
+  border-color: #0D2815 !important;
+}
+
+/* Recolor post blocks. */
+.post_block {
+  background: none !important;
+  border: 1px #0D2815 solid !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.post_wrap, .post_wrap>div {
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  color: #D0C3A8 !important;
+}
+
+.post_wrap a {
+  color: white !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+.post_wrap a:hover {
+  text-decoration: underline !important;
+}
+
+.post_wrap h3 {
+  background: none !important;
+  float: left !important;
+  width: 215px !important;
+  clear: both !important;
+  border-right: 1px #0D2815 solid !important;
+  border: none !important;
+  padding: 8px 5px !important;
+}
+
+.post_wrap .author_info {
+  float: left !important;
+  width: 225px !important;
+  clear: both !important;
+  border-color: #0D2815 !important;
+  border: none !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.post_wrap .author_info * {
+  color: #D0C3A8 !important;
+}
+
+.posted_info {
+  color: #8E8E7E !important;
+}
+
+.edit {
+  color: #8E8E7E !important;
+  background: transparent !important;
+  padding-left: 0 !important;
+}
+
+.signature {
+  color: #D0C3A8 !important;
+  border-color: #8E8E7E !important;
+}
+
+.post_controls {
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  color: #D0C3A8 !important;
+  border: none !important;
+  border-top: 1px #0D2815 solid !important;
+}
+
+.post_block:nth-child(4n) .post_controls, .post_block:nth-child(4n) .post_wrap, .post_block:nth-child(4n) .post_wrap>div { 
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+/* Recolor post control buttons. */
+.post_controls li {
+  background: none !important;
+}
+
+.post_controls li a {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  color: #D0C3A8 !important;
+  padding-top: 3px !important;
+  padding-bottom: 2px !important;
+}
+
+.post_controls li a:hover {
+  background: #030 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* Recolor user control buttons. */
+.user_controls li {
+  background: none !important;
+}
+
+.user_controls li a {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  border-radius: 0 !important;
+  color: #D0C3A8 !important;
+  padding-top: 3px !important;
+  padding-bottom: 2px !important;
+}
+
+.user_controls li a:hover {
+  background: #030 !important;
+  color: white !important;
+}
+
+/* Recolor quote, code and spoiler blocks. */
+.citation {
+  margin-top: 4px !important;
+  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  color: #D0C3A8 !important;
+  border: 1px #0D2815 solid !important;
+  border-left-width: 3px !important;
+  border-bottom-width: 0px !important;
+}
+
+.blockquote {
+  border: 1px #0D2815 solid !important;
+  border-left-width: 3px !important;
+  background: #272614 !important;
+  color: #D0C3A8 !important;
+}
+
+.bbc_spoiler_wrapper {
+  padding: 0 !important;
+}
+
+.bbc_spoiler_content {
+  background: #272614 !important;
+  color: #D0C3A8 !important;
+}
+
+.prettyprint {
+  background: #272614 !important;
+  color: #D0C3A8 !important;
+  border-color: #0D2815 !important;
+}
+
+/* Recolor topic list. */
+.topic_list {
+  border: 1px #0D2815 solid !important;
+  border-top: none !important;
+}
+
+.topic_list tr, .topic_list td {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border: none !important;
+}
+
+.topic_prefix {
+  background: none !important;
+  color: #D0C3A8 !important;
+}
+
+.topic_list .desc {
+  color: #8E8E7E !important;
+}
+
+/* Recolor progress bars (message space, warning, etc.). */
+.progress_bar {
+  background: #272614 !important;
+  border-color: #0D2815 !important;
+}
+
+.progress_bar span {
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+}
+
+/* Recolor topic summary (on reply page). */
+#topic_summary, #topic_summary .post_block, #topic_summary .posted_info, #topic_summary .post_body {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+}
+
+#topic_summary h3 {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+#topic_summary .posted_info {
+  color: #8E8E7E !important;
+  margin-bottom: 5px !important;
+}
+
+#topic_summary .post_body {
+  margin-left: 5px !important;
+}
+
+#topic_summary .submit {
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  border: 1px #0D2815 solid !important;
+  border-top: none !important;
+}
+
+/* Recolor tab bar. */
+.tab_bar {
+  color: #D0C3A8 !important;
+  background: #030 url('http://static.zenimax.com/forums/public/style_images/master/gradient_bg.png') !important;
+  padding-top: 7px !important;
+  padding-bottom: 32px !important;
+}
+
+.tab_bar, .tab_bar li.active, .tab_filters {
+  color: #D0C3A8 !important;
+  background: #030 url('http://static.zenimax.com/forums/public/style_images/master/gradient_bg.png') top left !important;
+}
+
+.tab_bar li.active {
+  padding: 2px 10px !important;
+  margin: 0px !important;
+}
+
+.tab_filters input[type=submit] {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  color: #D0C3A8 !important;
+  padding-bottom: 2px !important;
+}
+
+.tab_filters input[type=submit]:hover {
+  background: #030 !important;
+  color: white !important;
+}
+
+.tab_filters select {
+  background: #272614 !important;
+  color: #E7E2CF !important;
+  border-color: #0D2815 !important;
+}
+
+/* Recolor the filter bar. */
+.filter_bar {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border: 1px #0D2815 solid !important;
+  border-radius: 0 !important;
+}
+
+.filter_bar * {
+  color: #D0C3A8 !important;
+}
+
+.filter_bar input[type=submit] {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  color: #D0C3A8 !important;
+  padding-bottom: 2px !important;
+}
+
+.filter_bar input[type=submit]:hover {
+  background: #030 !important;
+  color: white !important;
+}
+
+.filter_bar select {
+  background: #272614 !important;
+  color: #E7E2CF !important;
+  border-color: #0D2815 !important;
+}
+
+/* Recolor search page. */
+.message, .no_messages {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  border: 1px #0D2815 solid !important;
+  border-radius: 0 !important;
+}
+
+#member_alpha {
+  float: left !important;
+  padding-top: 8px !important;
+  padding-bottom: 0px !important;
+}
+
+#search_results {
+  border-bottom: 1px #0D2815 solid !important;
+}
+
+#search_results li {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  border-color: #0D2815 !important;
+}
+
+/* Recolor member page. */
+#member_list h3.bar {
+  color: #D0C3A8 !important;
+  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+#member_wrap .info {
+  border-color: #0D2815 !important;
+}
+
+.members>li {
+  margin-bottom: 0 !important;
+  border-bottom: 2px #0D2815 solid !important;
+}
+
+/* Recolor and tweak the forums list. */
+#categoryparent_17 {
+  display: block !important;
+}
+
+#board_index .maintitle.collapsed {
+  border-bottom: 2px #0D2815 solid !important;
+}
+
+#board_index .redirect_forum {
+  display: none !important;
+}
+
+/* Recolor default IPB table. */
+.ipb_table {
+  border-bottom: 2px #0D2815 solid !important;
+}
+
+.ipb_table tr, .ipb_table td {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border: none !important;
+}
+
+/* Recolor default description spans. */
+.desc {
+  color: #8E8E7E !important;
+}
+
+/* Recolor forum stats box. */
+#open_sidebar, #close_sidebar {
+  display: none;
+}
+
+#index_stats h3 {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border: none !important;
+  padding-top: 10px !important;
+}
+
+#index_stats li {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  border: none !important;
+  border-bottom: 1px #0D2815 solid !important;
+}
+
+/* Recolor the messenger page. */
+#messenger_utilities h3 {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border-color: #0D2815 !important;
+}
+
+#messenger_utilities .total {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  border-radius: 0 !important;
+}
+
+#participants_list li {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border-color: #0D2815 !important;
+}
+
+/* Recolor default subheaders. */
+h3.bar {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+}
+
+/* Recolor profile page. */
+.recent_activity {
+  background: none !important;
+}
+
+.recent_activity #tab_content, .status_main_wrap, .status_profile_page,
+.status_update, #friend_list ul, #post_comment, #comment_list .comment {
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border-color: #0D2815 !important;
+}
+
+.status_profile_actions, .status_wrapper, .status_mini_wrap {
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+.recent_activity .tab_bar {
+  float: none !important;
+  padding-bottom: 26px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 7px !important;
+  border-bottom: 2px #0D2815 solid !important;
+}
+
+.status_main_wrap {
+  -webkit-box-shadow: none !important;
+}
+
+.recent_activity h3.bar {
+  height: 23px !important;
+}
+
+.personal_info {
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+}
+
+.personal_info li a {
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+.vcard .maintitle {
+  display: none;
+}
+
+/* Recolor default buttons. */
+.input_submit {
+  background: #0D2815 !important;
+  border: 1px solid #265928 !important;
+  color: #D0C3A8 !important;
+  white-space: nowrap;
+}
+
+.input_submit:hover {
+  background: #030 !important;
+  color: white !important;
+}
+
+/* Recolor help page. */
+#help_topics {
+  border-color: #0D2815 !important;
+}
+
+#help_topics li, .help_doc {
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+}
+
+/* Recolor the settings page. */
+#userCPForm .tab_bar {
+  float: none !important;
+  padding-bottom: 32px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 7px !important;
+  border-bottom: 2px #0D2815 solid !important;
+}
+
+#usercp_menu li {
+  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 0px !important;
+  margin-right: 0px !important;
+}
+
+#usercp_menu li.active {
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+#usercp_menu, #usercp_content {
+  border-color: #0D2815 !important;
+}
+
+#usercp_content {
+  padding-left: 0 !important;
+}
+
+#usercp_content fieldset, #usercp_content div {
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+#usercp_content h3 {
+  color: #D0C3A8 !important;
+}
+
+/* Recolor polls. */
+.poll h3 {
+  color: #D0C3A8 !important;
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+.poll_question>* {
+  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+}
+
+/* Firefox Stylish bug fix. */
+input, select, textarea, button {
+  -moz-appearance: none !important;
+  border-style: solid;
+}

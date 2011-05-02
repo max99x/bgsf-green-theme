@@ -1,0 +1,10 @@
+{
+  "name": "Green BGSF Skin",
+  "version": "1.1",
+  "description": "A green skin for the Bethesda Softworks forum.",
+  "icons": { "128": "icon.png" },
+  "content_scripts": [{
+    "matches": [ "http://forums.bethsoft.com/*" ],
+    "css": [ "forum.css" ]
+  }]
+}
