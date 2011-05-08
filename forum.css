@@ -1,6 +1,6 @@
 /* Main background. */
 body {
-  background: #1E240C url('http://static.max99x.com/junk/darkbrown_bg.gif') center center !important;
+  background: #1E240C url(data:image/gif;base64,R0lGODlhCAAIAJEAACggGS0kHiggGjIoIiH5BAAAAAAALAAAAAAIAAgAAAIMhI+BFqMolICr2osKADs=) center center !important;
   font-family: Verdana, Arial, sans-serif !important;
   font-size: 13px !important;
   color: #D0C3A8 !important;
@@ -26,7 +26,7 @@ a:hover {
 
 /* Replace top bar background and logo. */
 #branding {
-  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: #0D2815 url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   color: #D0C3A8 !important;
 }
 #branding a {
@@ -74,7 +74,7 @@ a:hover {
 }
 
 #user_link_menucontent, #user_link_menucontent li {
-  background: #1E240C url('http://static.max99x.com/junk/darkgreen_bg.gif') center center !important;
+  background: #1E240C url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) center center !important;
 }
 
 /* Recolor navigation bar. */
@@ -143,7 +143,7 @@ a:hover {
 
 /* Breadcrumbs navbar recolor. */
 #secondary_nav {
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: none !important;
   border-bottom: 2px #0D2815 solid !important;
   border-top-width: 1px !important;
@@ -241,7 +241,7 @@ a:hover {
 /* Recolor topic stats box. */
 #topic_stats {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: 1px #0D2815 solid !important;
 }
 
@@ -260,7 +260,7 @@ a:hover {
 /* Recolor reply box. Might have side effects. */
 .general_box, .general_box fieldset, #postingform fieldset {
   color: #D0C3A8 !important;
-  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: #0D2815 url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: none !important;
 }
 
@@ -326,18 +326,18 @@ a:hover {
 }
 
 .ips_editor fieldset {
-  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: #0D2815 url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 #postingform h3.bar {
   color: #D0C3A8 !important;
-  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: #0D2815 url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 /* Recolor forum jump (and moderation?) bar. */
 .moderation_bar {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: 1px #0D2815 solid !important;
   border-radius: 0 !important;
 }
@@ -363,7 +363,7 @@ a:hover {
 /* Recolor forum filter bar. */
 #forum_filter {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: 1px #0D2815 solid !important;
   border-radius: 0 !important;
 }
@@ -399,7 +399,7 @@ a:hover {
 }
 
 .post_wrap, .post_wrap>div {
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   color: #D0C3A8 !important;
 }
 
@@ -453,14 +453,14 @@ a:hover {
 }
 
 .post_controls {
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   color: #D0C3A8 !important;
   border: none !important;
   border-top: 1px #0D2815 solid !important;
 }
 
 .post_block:nth-child(4n) .post_controls, .post_block:nth-child(4n) .post_wrap, .post_block:nth-child(4n) .post_wrap>div { 
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 /* Recolor post control buttons. */
@@ -504,7 +504,7 @@ a:hover {
 /* Recolor quote, code and spoiler blocks. */
 .citation {
   margin-top: 4px !important;
-  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: #0D2815 url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   color: #D0C3A8 !important;
   border: 1px #0D2815 solid !important;
   border-left-width: 3px !important;
@@ -541,7 +541,7 @@ a:hover {
 
 .topic_list tr, .topic_list td {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: none !important;
 }
 
@@ -561,18 +561,18 @@ a:hover {
 }
 
 .progress_bar span {
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 /* Recolor topic summary (on reply page). */
 #topic_summary, #topic_summary .post_block, #topic_summary .posted_info, #topic_summary .post_body {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 #topic_summary h3 {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 #topic_summary .posted_info {
@@ -585,7 +585,7 @@ a:hover {
 }
 
 #topic_summary .submit {
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: 1px #0D2815 solid !important;
   border-top: none !important;
 }
@@ -629,7 +629,7 @@ a:hover {
 /* Recolor the filter bar. */
 .filter_bar {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: 1px #0D2815 solid !important;
   border-radius: 0 !important;
 }
@@ -659,7 +659,7 @@ a:hover {
 /* Recolor search page. */
 .message, .no_messages {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: 1px #0D2815 solid !important;
   border-radius: 0 !important;
 }
@@ -676,14 +676,14 @@ a:hover {
 
 #search_results li {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border-color: #0D2815 !important;
 }
 
 /* Recolor member page. */
 #member_list h3.bar {
   color: #D0C3A8 !important;
-  background: #0D2815 url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: #0D2815 url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 #member_wrap .info {
@@ -715,7 +715,7 @@ a:hover {
 
 .ipb_table tr, .ipb_table td {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: none !important;
 }
 
@@ -731,14 +731,14 @@ a:hover {
 
 #index_stats h3 {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: none !important;
   padding-top: 10px !important;
 }
 
 #index_stats li {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border: none !important;
   border-bottom: 1px #0D2815 solid !important;
 }
@@ -746,7 +746,7 @@ a:hover {
 /* Recolor the messenger page. */
 #messenger_utilities h3 {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border-color: #0D2815 !important;
 }
 
@@ -758,14 +758,14 @@ a:hover {
 
 #participants_list li {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border-color: #0D2815 !important;
 }
 
 /* Recolor default subheaders. */
 h3.bar {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 /* Recolor profile page. */
@@ -775,12 +775,12 @@ h3.bar {
 
 .recent_activity #tab_content, .status_main_wrap, .status_profile_page,
 .status_update, #friend_list ul, #post_comment, #comment_list .comment {
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border-color: #0D2815 !important;
 }
 
 .status_profile_actions, .status_wrapper, .status_mini_wrap {
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 .recent_activity .tab_bar {
@@ -801,11 +801,11 @@ h3.bar {
 }
 
 .personal_info {
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 .personal_info li a {
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 .vcard .maintitle {
@@ -831,7 +831,7 @@ h3.bar {
 }
 
 #help_topics li, .help_doc {
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 /* Recolor the settings page. */
@@ -845,7 +845,7 @@ h3.bar {
 }
 
 #usercp_menu li {
-  background: url('http://static.max99x.com/junk/lightgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAABo7Hho6HiI9Iho5GyH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
   border-bottom-left-radius: 4px !important;
   border-bottom-right-radius: 0px !important;
   border-top-left-radius: 4px !important;
@@ -854,7 +854,7 @@ h3.bar {
 }
 
 #usercp_menu li.active {
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 #usercp_menu, #usercp_content {
@@ -866,7 +866,7 @@ h3.bar {
 }
 
 #usercp_content fieldset, #usercp_content div {
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 #usercp_content h3 {
@@ -876,10 +876,10 @@ h3.bar {
 /* Recolor polls. */
 .poll h3 {
   color: #D0C3A8 !important;
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 .poll_question>* {
-  background: url('http://static.max99x.com/junk/darkgreen_bg.gif') !important;
+  background: url(data:image/gif;base64,R0lGODlhCAAIAJEAAAAwBQAvBQsyCwAsACH5BAAAAAAALAAAAAAIAAgAAAIUjA8GAgkThGxutuAoVQmjAHXYlRQAOw==) !important;
 }
 
 /* Firefox Stylish bug fix. */
